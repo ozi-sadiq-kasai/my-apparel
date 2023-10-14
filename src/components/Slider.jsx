@@ -1,4 +1,4 @@
-import '../Styles/Slider.css'
+import '../Styles/slider.css'
 import ArrowCircleLeftOutlinedIcon from '@mui/icons-material/ArrowCircleLeftOutlined'
 import ArrowCircleRightOutlinedIcon from '@mui/icons-material/ArrowCircleRightOutlined'
 // import zIndex from '@mui/material/styles/zIndex'
