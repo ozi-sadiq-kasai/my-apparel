@@ -1,4 +1,4 @@
-import "../styles/Navbar.css"
+import "../Styles/Navbar.css"
 import { AiOutlineSearch } from 'react-icons/ai'
 import Badge from '@mui/material/Badge';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined'
