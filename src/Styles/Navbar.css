@@ -1,0 +1,84 @@
+.Navbar{
+  height: 60px;
+  overflow: hidden;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.Navbar__Wrapper{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 10px;
+ max-width: 1000px;
+ margin: 0 auto;
+  overflow: hidden;
+  width: 100%;
+}
+
+.Navbar__Left{
+ flex: 1;
+ display: flex;
+ align-items: center;
+ cursor: pointer;
+ padding-left: 10px;
+}
+
+.Navbar__Search{
+ border: 0.5px solid lightgray;
+ display: flex;
+ align-items: center;
+ margin-left: 25px;
+ padding: 5px 15px;
+}
+.Navbar__Search > input{
+ border:none
+}
+input:focus{
+ outline:none
+}
+
+.Navbar__Center{
+ flex: 1;
+ display: flex;
+ align-items: center;
+}
+.Navbar__Center > h1{
+ font-size: 1.9rem;
+ font-weight: 700;
+ width: 100%;
+ text-align: center;
+ color: #3e3d3d;
+}
+
+.Navbar__Right{
+ flex: 1;
+ display: flex;
+ align-items: center;
+ justify-content: flex-end;
+}
+
+/* QUERIES */
+@media only screen and (min-width: 320px) and (max-width: 414px){
+ .Navbar{
+  height: 130px;
+  width: 100%;
+}
+.Navbar__Wrapper{
+ flex-direction: column-reverse;
+ align-items: center;
+ padding: 15px 0;
+}
+.Navbar__Center h1{
+ padding: 10px 0;
+}
+.Navbar__Search{
+ margin-left: 10px;
+ padding: 3px 10px;
+}
+}
+@media only screen and (width: 600px){
+.Navbar__Center > h1{
+ font-size: 1.7rem;
+}
+}

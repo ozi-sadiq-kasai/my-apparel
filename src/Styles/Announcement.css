@@ -1,0 +1,21 @@
+.bar{
+ height:30px;
+ background-color: colorChange;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ color: white;
+ overflow: hidden;
+ width: 100vw;
+}
+
+.bar__info{
+ font-weight: 400;
+ font-size: 14px;
+}
+
+@media screen and (width:320px) {
+ .bar{
+  padding-right: 17px;
+ }
+}

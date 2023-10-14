@@ -1,0 +1,83 @@
+.news{
+ padding: 0 30px;
+ margin-top: 10px;
+ height: 30vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: rgb(126, 185, 187);
+}
+
+.news__header{
+ font-size:2.7rem;
+ color: lightgray;
+ padding: 5px 0;
+ text-align: center;
+}
+
+.news__desc{
+ margin: 10px 0;
+ word-spacing: 2px;
+ font-size: 18px;
+ font-weight: 400;
+}
+
+.news__input-div > input{
+ padding: 10px 0px 10px 3px; 
+ flex: 10;
+ border: none;
+}
+.news__input-div{
+ display: flex;
+ margin-bottom: 20px;
+}
+.news__input-div>button{
+flex: 2;
+padding: 5px 0;
+border: none;
+border-radius: 0 3px 3px 0;
+color: white;
+background-color: teal;
+}
+
+/* QUERIES */
+
+@media only screen and (min-width: 320px) and (max-width: 1024px){
+ .news{
+ padding: 10px;
+ margin-top: 0px;
+ height:30vh;
+}
+.news__header{
+ font-size:2rem;
+ padding: 0;
+}
+.news__desc{
+ margin: 5px 0;
+ font-size: 16px;
+ text-align: center;
+ padding: 5px 0;
+}
+.news__input-div > input{
+ padding: 5px 0px 5px 3px; 
+ flex: 4;
+ border: none;
+}
+.news__input-div{
+ margin-bottom: 0px;
+}
+.news__input-div>button{
+flex: 1;
+padding: 3px 0;
+}
+}
+@media only screen and (min-width: 768px)and (max-width: 1024px){
+ .news{
+ margin-top: 0px;
+ height:15vh;
+}
+.news__header{
+ font-size:2.5rem;
+ padding: 0;
+}
+}
