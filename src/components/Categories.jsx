@@ -1,4 +1,4 @@
-import { categories } from '../data'
+import { categories } from '../../src/data.js'
 import '../Styles/Categories.css'
 const Categories = () => {
   return (
